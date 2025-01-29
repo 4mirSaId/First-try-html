@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+    <link rel="stylesheet" href="my portfolio style.css">
+    <script src="Portfolio.js"> </script>      
+    <head>
+        MY PORTFOLIO
+    </head>
+    <body>
+        <H2> About me:</H2>
+        <p> My name is Amir Said, I have 24 years old, Am learning web developping strting by html and css basics</p>
+        <section>
+            <button id="toggle-projects"> Show/hide projects</button>
+            <ol id="project-list">
+                <li> <a href="index.html">First try</a></li>
+            </ol>
+        </section>
+        <section>
+            <h1> Contact me</h1>
+            <p> Fill the form bellow:</p>
+            <form action="https://Contact.me.io/submit" 
+            method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name"
+            name="name" placeholder="Place your name"><br><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" 
+            name="email"
+            placeholder="example@email.com"><br><br>
+            <label for="message">Your message</label><br>
+            <textarea id="message"
+            name="message" placeholder="Type your message here"></textarea><br><br>
+            <button type="submit">Send</button>
+            </form>
+        </section>
+    </body>
+</html>
